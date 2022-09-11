@@ -1,0 +1,143 @@
+.why_choseus{
+    width: 100vw;
+    height: 110vh;
+    background-color: rgb(255, 255, 255);
+}
+.why_choseus .head{
+   width: 100%;
+   height: 10vh;
+   
+   display: flex;
+   align-items:center;
+   justify-content: center;
+   
+    margin-top: 4vh;
+    
+}
+.why_choseus .head h1{
+    padding-bottom: 5px;
+    
+    border-bottom: 5px double black;
+    color: rgb(4, 4, 54);
+    font-weight: bolder;
+}
+.why_choseus .content{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.why_choseus .content .why_choseus-card{
+    width: 75vw;
+    height:80vh;
+    display: flex;
+    margin-top: 40px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray,-1px -1px 5px gray;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.why_choseus .content .why_choseus-card .left{
+    width: 35vw;
+}
+.why_choseus .content .why_choseus-card .right{
+    width: 38.5vw;
+    height: 80vh;
+    
+    
+}
+.why_choseus .content .why_choseus-card .right h2{
+    font-family: 'Montserrat', sans-serif;
+   padding-left: 2vh;
+    color: rgb(4, 4, 54);
+    font-weight: bolder;
+}
+.why_choseus .content .why_choseus-card .right .box{
+    width: 32vw;
+    height: 7vh;
+    
+    display: flex;
+    margin-top: 5vh;
+}
+.why_choseus .content .why_choseus-card .right .box #icon{
+    font-size: 2.3rem;
+    color: rgb(4, 4, 54);
+}
+.why_choseus .content .why_choseus-card .right p{
+font-family: 'Josefin Sans', sans-serif;
+font-weight: bold;
+
+font-size: 1.1rem;
+padding-top: .7vh;
+color: gray;
+}
+.why_choseus .content .why_choseus-card img{
+    width: 35vw;
+    height: 80vh;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+@media(min-width:350px) and (max-width:700px){
+    .why_choseus{
+        height: auto;
+    }
+    .why_choseus .content{
+        height: auto;
+    }
+    .why_choseus .content .why_choseus-card{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .why_choseus .content .why_choseus-card .left{
+        width: 75vw;
+    }
+    .why_choseus .content .why_choseus-card img{
+        width: 75vw;
+        height: 40vh;
+    }
+    .why_choseus .content .why_choseus-card .right{
+        width: 75vw;
+        height: auto; 
+        display: flex;
+       
+        
+        
+        flex-direction: column;
+    }
+    .why_choseus .content .why_choseus-card .right .box{
+        width: 75vw;
+      margin-top: 0vh;
+    }
+    .why_choseus .content .why_choseus-card .right .box #icon{
+        font-size: 1.5rem;
+        padding-left: 2vw;
+    }
+    .why_choseus .content .why_choseus-card .right h2{
+        font-size: 1rem;
+    }
+    .why_choseus .content .why_choseus-card .right p{
+        padding-left: 2vw;
+        font-size: 1rem;
+      
+    }
+}
+@media(min-width:700px) and (max-width:900px){
+    .why_choseus .content .why_choseus-card .right .box #icon{
+        font-size: 1.5rem;
+        
+    }
+    .why_choseus .content .why_choseus-card .right h2{
+        font-size: .8rem;
+    }
+    .why_choseus .content .why_choseus-card .right p{
+        
+        font-size: .6rem;
+      
+    }
+}

@@ -1,0 +1,176 @@
+.home_navbar{
+    width: 100%;
+    height: 17vh;
+   
+}
+.home_navbar .top{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(4, 4, 54);
+    display: flex;
+    align-items: center;
+}
+.home_navbar .top .location{
+    display: flex;
+    color: whitesmoke;
+    margin-left: 15vw;
+}
+.home_navbar .top .location h4{
+    all: unset;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+.home_navbar .top .location #icon{
+    color: yellow;
+    font-size: 1.5rem;
+}
+.home_navbar .top .phone{
+    display: flex;
+    color: whitesmoke;
+    margin-left: 5vw;
+}
+.home_navbar .top .phone h4{
+    all: unset;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+.home_navbar .top .phone #icon{
+    color: yellow;
+    font-size: 1.3rem;
+}
+.home_navbar .top .clock{
+    display: flex;
+    color: whitesmoke;
+    margin-left: 22vw;
+}
+.home_navbar .top .clock h4{
+    all: unset;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+.home_navbar .top .clock #icon{
+    color: yellow;
+    font-size: 1.3rem;
+}
+
+.home_navbar .navbar1{
+   
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+   
+   
+    background-color: #ece6e66b;
+   z-index: 2;
+  
+}
+ .active2{
+    position: fixed;
+    top: 0vh;
+
+    
+}
+.home_navbar .navbar1 img{
+    width: 100px;
+    height: 100px;
+    margin-left: 8vw;
+}
+.home_navbar .navbar1 ul{
+    all: unset;
+    display: flex;
+    list-style: none;
+}
+.home_navbar .navbar1 ul li{
+    margin-left: 20px;
+  
+   height: 35px;
+  cursor: pointer;
+   font-family: 'Source Sans Pro', sans-serif;
+   font-size: 1.2rem;
+   color: rgb(4, 4, 54);
+   font-weight: bold;
+   list-style: none;
+}
+.home_navbar .navbar1 ul a{
+    text-decoration: none;
+}
+.home_navbar .navbar1 ul #menu_icon{
+    padding-top: 5px;
+    cursor: pointer;
+    padding-left: 1px;
+    font-size: 1rem;
+}
+.home_navbar .navbar1 .submenu{
+    height: auto;
+    display: none;
+   z-index: 1;
+}
+
+.home_navbar .navbar1 .submenu ul li{
+    font-weight: normal;
+    border-bottom: 2px solid rgb(4, 4, 54);
+    display: flex;
+    align-items: center;
+    padding-left: 3px;
+    font-size: 1.1rem;
+    height: 30px;
+}
+.home_navbar .navbar1 .submenu ul li:hover{
+    background-color: rgb(160, 160, 165);
+    color: white;
+    border-bottom: none;
+}
+.home_navbar .navbar1 ul li:hover .submenu{
+  display: block;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  margin-top: 5px;
+  margin-left: -15px;
+}
+.home_navbar .navbar1 .submenu:hover{
+    display: block;
+}
+.home_navbar .navbar1 ul li:hover .submenu ul{
+    display: block;
+    margin: 10px;
+    
+}
+.home_navbar .navbar1 .btn2{
+    all: unset;
+    width: 11vw;
+    height: 5.5vh;
+    margin-left: 5vw;
+    margin-top: 2vh;
+    color: whitesmoke;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    background-color: rgb(26, 160, 209);
+    outline: none;
+    border: none;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.home_navbar .navbar1 .btn3{
+    all:unset;
+    width: 11vw;
+    height: 5.5vh;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    color: whitesmoke;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    background-color: rgb(26, 160, 209);
+    outline: none;
+    border: none;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}

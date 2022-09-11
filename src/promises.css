@@ -1,0 +1,148 @@
+.promises{
+    width: 100vw;
+    height: 85vh;
+    background-color: rgb(243, 235, 235);
+}
+.promises .head{
+    width: 100%;
+    height: 10vh;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-top: 5vh;
+    
+    
+}
+.promises .head h1{
+    padding-bottom: 5px;
+    
+    border-bottom: 5px double black;
+    color: rgb(4, 4, 54);
+    
+}
+.promises .content{
+    width: 100vw;
+    height: 60vh;
+   padding-top: 5vh;
+}
+.promises .content .first{
+    width: 100vw;
+    height: 20vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promises .content .first .box1{
+    width: 40vw;
+    height: 18vh;
+    background-color: rgb(4, 4, 54);
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promises .content .first .box1 #icon{
+    color: whitesmoke;
+    font-size: 2.8rem;
+    padding-left: 10px;
+    color: rgb(122, 253, 0);
+}
+.promises .content .first .box1 h2{
+font-family: 'Josefin Sans', sans-serif;
+padding-left: 10px;
+color: rgb(249, 249, 249);
+font-weight: bolder;
+}
+.promises .content .first .box2{
+    width: 40vw;
+    height: 18vh;
+    background-color: rgb(1, 115, 105);
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.promises .content .first .box2 #icon{
+    color: whitesmoke;
+    font-size: 2.8rem;
+    padding-left: 10px;
+    color: rgb(122, 253, 0);
+}
+.promises .content .first .box2 h2{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 10px;
+    color: whitesmoke;
+    font-weight: bolder;
+    }
+    @media(min-width:350px) and (max-width:650px){
+        .promises .content .first .box1{
+            flex-direction: column;
+            
+            justify-content: center;
+            align-items: center;
+        }
+        .promises .content .first .box1 #icon{
+            font-size: 1rem;
+            padding-left: 0px;
+        }
+        .promises .content .first .box1 h2{
+            font-size: .6rem;
+            font-weight: lighter;
+            padding-left: 0px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .promises .content .first .box2{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .promises .content .first .box2 #icon{
+            font-size: 1rem;
+            padding-left: 0px;
+        }
+        .promises .content .first .box2 h2{
+            font-size: .6rem;
+            font-weight: lighter;
+            padding-left: 0px;
+            text-align: center;
+            padding-top: 10px;
+        }
+    }
+    @media(min-width:650px) and (max-width:900px){
+        .promises .content .first .box1{
+            flex-direction: column;
+            
+            justify-content: center;
+            align-items: center;
+        }
+        .promises .content .first .box1 #icon{
+            font-size: 1.1rem;
+            padding-left: 0px;
+        }
+        .promises .content .first .box1 h2{
+            font-size: .9rem;
+            font-weight: lighter;
+            padding-left: 0px;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .promises .content .first .box2{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .promises .content .first .box2 #icon{
+            font-size: 1.1rem;
+            padding-left: 0px;
+        }
+        .promises .content .first .box2 h2{
+            font-size: .9rem;
+            font-weight: lighter;
+            padding-left: 0px;
+            text-align: center;
+            padding-top: 10px;
+        }
+    }

@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.gst_fill{
+    width: 100vw;
+    height: 200vh;
+    background-color: rgb(240, 239, 239);
+}
+.gst_fill .head{
+    font-family: 'Montserrat', sans-serif;
+width: 100vw;
+    color: gray;
+    padding-top: 5vh;
+
+}
+.gst_fill .head h1{
+    width: 30vw;
+    margin: auto;
+}
+.gst_fill .content{
+    width: 100vw;
+    height: 170vh;
+    display: grid;
+    place-items: center;
+}
+.gst_fill .content .inside_content{
+    width: 50vw;
+    height: 165vh;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 5px gray,-1px -1px 5px gray;
+}
+.gst_fill .content .inside_content .field{
+    width: 40vw;
+    display: flex;
+    
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2vw;
+}
+.gst_fill .content .inside_content .field h5{
+    width: 17vw;
+}
+.gst_fill .content .inside_content .field .inp{
+    position: relative;
+    right: 2vw;
+    width: 20vw;
+    height: 4vh;
+    padding-left: 5px;
+}
+.gst_fill .content .inside_content  button{
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(8, 142, 182);
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+    margin-left: 1.8vw;
+    margin-top: 4vh;
+}

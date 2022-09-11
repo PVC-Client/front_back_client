@@ -1,0 +1,41 @@
+.compilance{
+    width: 100vw;
+    height: 700vh;
+    background-color: rgb(243, 235, 235);
+}
+.compilance .head{
+    width: 100%;
+    height: 10vh;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding-top: 3vh;
+    
+    
+}
+.compilance .head h1{
+    padding-bottom: 5px;
+    
+    border-bottom: 5px double black;
+    color: rgb(4, 4, 54);
+   
+}
+.compilance .content{
+    width: 100vw;
+    height: 680vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media(min-width:350px) and (max-width:650px){
+    .compilance {
+        height: auto;
+    }
+    .compilance .content{
+        height: auto;
+        
+    }
+}

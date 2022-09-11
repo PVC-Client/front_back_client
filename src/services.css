@@ -1,0 +1,39 @@
+.services{
+    width: 100vw;
+    height: 350vh;
+    background-color: rgb(243, 235, 235);
+}
+.services .head{
+    width: 100%;
+    height: 10vh;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    
+    
+}
+.services .head h1{
+    padding-bottom: 5px;
+    
+    border-bottom: 5px double black;
+    color: rgb(4, 4, 54);
+    
+}
+.services .content{
+    width: 100vw;
+    height: 330vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@media(min-width:350px) and (max-width:650px){
+    .services{
+        height: auto;
+    }
+    .services .content{
+        height: auto;
+
+    }
+}

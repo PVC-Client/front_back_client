@@ -1,0 +1,54 @@
+.registration-main{
+
+    width: 100%;
+    /* height:65rem; */
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+   height: 380vh;
+}
+
+.registration-heading{
+    
+    width: 100%;
+    height: 10vh;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.registration-heading h1{
+
+    padding-bottom: 5px;
+    
+    border-bottom: 5px double black;
+    color: rgb(4, 4, 54);
+    font-weight: bolder;
+
+    
+}
+
+
+
+
+.registration-main .resgistation{
+
+    width: 90%;
+    height: auto;
+   
+}
+
+.items-reverse{
+    
+    flex-direction: row-reverse;
+}
+@media(min-width:350px) and (max-width:650px){
+    .registration-main{
+        height: auto;
+    }
+}
